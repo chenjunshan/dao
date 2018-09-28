@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="eui_skins.ProgressBarSkin" xmlns:e="http://ns.egret.com/eui">
+	<e:Image id="track" width="100%" height="100%" verticalCenter="0"  source="track_pb_png"/>
+	<e:Image id="thumb" height="100%" width="100%" verticalCenter="0" source="thumb_pb_png"/>
+</e:Skin>

@@ -1,0 +1,90 @@
+{
+    "knife": [
+        {
+            "id": 0,
+            "desc": "初始飞刀",
+            "target": -1,
+            "type": "null"
+        },
+        {
+            "id": 1,
+            "desc": "邀请三个好友来玩游戏",
+            "target": 3,
+            "type": "invite"
+        },
+        {
+            "id": 2,
+            "desc": "一场游戏中获得100分",
+            "target": 100,
+            "type": "score"
+        },
+        {
+            "id": 3,
+            "desc": "一场游戏中获得200分",
+            "target": 200,
+            "type": "score"
+        },
+        {
+            "id": 4,
+            "desc": "一场游戏中获得400分",
+            "target": 400,
+            "type": "score"
+        },
+        {
+            "id": 5,
+            "desc": "一场游戏中获得600分",
+            "target": 600,
+            "type": "score"
+        },
+        {
+            "id": 6,
+            "desc": "一场游戏中获得800分",
+            "target": 800,
+            "type": "score"
+        }
+    ],
+    "box": [
+        {
+            "id": 0,
+            "desc": "初始靶子",
+            "target": -1,
+            "type": "null"
+        },
+        {
+            "id": 1,
+            "desc": "连续游戏3天",
+            "target": 3,
+            "type": "day"
+        },
+        {
+            "id": 2,
+            "desc": "连续游戏7天",
+            "target": 7,
+            "type": "day"
+        },
+        {
+            "id": 3,
+            "desc": "进行30场游戏",
+            "target": 30,
+            "type": "num"
+        },
+        {
+            "id": 4,
+            "desc": "进行50场游戏",
+            "target": 50,
+            "type": "num"
+        },
+        {
+            "id": 5,
+            "desc": "进行200场游戏",
+            "target": 200,
+            "type": "num"
+        },
+        {
+            "id": 6,
+            "desc": "收集5把飞刀",
+            "target": 5,
+            "type": "get"
+        }
+    ]
+}

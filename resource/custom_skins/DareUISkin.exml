@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Dare" width="1080" height="1920" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="bg_jpg" left="0" right="0" top="0" bottom="0"/>
+	<e:Group id="knifeNumG" bottom="50" left="50">
+		<e:layout>
+		<e:VerticalLayout/>
+		</e:layout>
+		<e:Image source="knife_blcak_png" x="-44" y="-1770.5" scaleX="0.8" scaleY="0.8"/>
+		<e:Image source="knife_blcak_png" x="-4" y="-1730.5" scaleX="0.8" scaleY="0.8"/>
+		<e:Image source="knife_blcak_png" x="6" y="-1720.5" scaleX="0.8" scaleY="0.8"/>
+		<e:Image source="knife_blcak_png" x="16" y="-1710.5" scaleX="0.8" scaleY="0.8"/>
+		<e:Image source="knife_blcak_png" x="26" y="-1700.5" scaleX="0.8" scaleY="0.8"/>
+		<e:Image source="knife_blcak_png" x="36" y="-1690.5" scaleX="0.8" scaleY="0.8"/>
+		<e:Image source="knife_blcak_png" x="46" y="-1680.5" scaleX="0.8" scaleY="0.8"/>
+		<e:Image source="knife_blcak_png" x="56" y="-1670.5" scaleX="0.8" scaleY="0.8"/>
+		<e:Image source="knife_blcak_png" x="66" y="-1660.5" scaleX="0.8" scaleY="0.8"/>
+	</e:Group>
+	<e:Image id="knifeIcon" anchorOffsetX="40.5" anchorOffsetY="180" source="knife0_png" x="540.5" y="1639"/>
+	<e:Group id="knifeBox" width="530" height="530" horizontalCenter="0" anchorOffsetX="265" anchorOffsetY="265" y="700"/>
+	<e:Group id="boxGroup" width="530" height="530" anchorOffsetY="265" anchorOffsetX="265" y="700" horizontalCenter="0">
+		<e:Image horizontalCenter="0" verticalCenter="0" source="bg_dare_png"/>
+	</e:Group>
+	<e:BitmapLabel id="levelLab" horizontalCenter="0" top="150" font="white_fnt" text="第 1 关" scaleX="2" scaleY="2"/>
+	<e:Group id="clickG" left="0" right="0" top="150" bottom="0">
+	</e:Group>
+	<e:Group id="fruitG" left="50" top="50">
+		<e:layout>
+			<e:VerticalLayout/>
+		</e:layout>
+	</e:Group>
+	<e:Group id="targetG" left="0" top="0" right="0" bottom="0">
+		<e:Rect left="3" right="-3" top="0" bottom="0" fillColor="0x141414" fillAlpha="0.9" touchEnabled="true" x="0" y="0" scaleX="1" scaleY="1"/>
+		<e:Group id="targetInfoG" horizontalCenter="0" top="500">
+		<e:Image source="bg_dare_target_png"/>
+		<e:Group id="targetFruitG" verticalCenter="0" horizontalCenter="0">
+			<e:Group x="-205.00000000000006" y="-275" scaleX="1" scaleY="1">
+			<e:Group x="-236.99999999999994" y="-4" scaleX="1" scaleY="1">
+				<e:Image source="bg_dare_target_fruit_png"/>
+				<e:Image source="fruit0_png" horizontalCenter="0" verticalCenter="0"/>
+			</e:Group>
+			<e:Label text="9/9" y="182" size="50" horizontalCenter="0" x="-43.999999999999886" scaleX="1" scaleY="1" textColor="0xff0000"/>
+			<e:layout>
+				<e:VerticalLayout horizontalAlign="center"/>
+			</e:layout>
+			</e:Group>
+			<e:Group x="-195.00000000000006" y="-265" scaleX="1" scaleY="1">
+			<e:Group x="-236.99999999999994" y="-4" scaleX="1" scaleY="1">
+				<e:Image source="bg_dare_target_fruit_png"/>
+				<e:Image source="fruit0_png" horizontalCenter="0" verticalCenter="0"/>
+			</e:Group>
+			<e:Label text="9/9" y="182" size="50" horizontalCenter="0" x="-43.999999999999886" scaleX="1" scaleY="1" textColor="0xFF0000"/>
+			<e:layout>
+				<e:VerticalLayout horizontalAlign="center"/>
+			</e:layout>
+			</e:Group>
+			<e:layout>
+			<e:HorizontalLayout gap="110"/>
+			</e:layout>
+		</e:Group>
+			<e:Image horizontalCenter="0" source="bg_dare_target_title_png" x="184" scaleX="1" scaleY="1" top="-70"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

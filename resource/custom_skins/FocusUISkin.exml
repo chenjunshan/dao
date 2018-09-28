@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="custom_skins.FocusUISkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+        height="1920" width="1080">
+	<e:Rect left="0" right="0" top="0" bottom="0" touchEnabled="true" fillAlpha="0.6" fillColor="0x000000" />
+	<e:Image source="bg_focus_png" horizontalCenter="0" verticalCenter="0"/>
+	<e:Image id="descImg" source="text_focus_png" horizontalCenter="0" verticalCenter="105"/>
+	<e:Group id="closeBtn" left="80" top="80" width="69" height="85">
+		<e:Button anchorOffsetX="0.5" anchorOffsetY="0.5" horizontalCenter="0" verticalCenter="0">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image id="icon" source="btn_back_png" horizontalCenter="0" verticalCenter="0" scaleX.up="1" scaleY.up="1"
+					         scaleX.down="1.1" scaleY.down="1.1" />
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+	<e:Group id="getBtn" horizontalCenter="0" width="336" height="132" verticalCenter="110">
+		<e:Button anchorOffsetX="0.5" anchorOffsetY="0.5" horizontalCenter="0" verticalCenter="0">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image id="icon" source="btn_get_png" horizontalCenter="0" verticalCenter="0" scaleX.up="1" scaleY.up="1"
+					         scaleX.down="1.1" scaleY.down="1.1" />
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+	<e:Label id="stateLab" text="已领取" horizontalCenter="0" verticalCenter="103" size="54" textColor="0x3db208"/>
+	<e:Group id="maskG" left="0" right="0" top="0" bottom="0"  visible="false"/>
+</e:Skin>

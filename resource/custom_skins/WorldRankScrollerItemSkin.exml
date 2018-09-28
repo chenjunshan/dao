@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Skin" width="900" height="160" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="rank_dialog_item_bg_png" horizontalCenter="0" bottom="0"/>
+	<e:Group top="0" bottom="0" left="0" width="150">
+		<e:Label id="rankLab" text="1" horizontalCenter="0" verticalCenter="0" size="36" textColor="0x000000"/>
+		<e:Image id="rankImg" source="first_png" verticalCenter="0" horizontalCenter="0"/>
+	</e:Group>
+	<e:Group top="0" bottom="0" left="150" width="550">
+		<e:Image id="avatarImg" source="" width="120" height="120" verticalCenter="0" left="30"/>
+		<e:Label id="nameLab" text="一二三四" verticalCenter="0" left="180" size="36" textColor="0x2dab62"/>
+	</e:Group>
+	<e:Group width="200" right="0" top="0" bottom="0">
+		<e:Label id="scoreLab" text="99" size="36" verticalCenter="0" horizontalCenter="0" textColor="0xff0000"/>
+	</e:Group>
+</e:Skin>

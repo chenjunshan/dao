@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="custom_skins.StartUISkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+        height="1920" width="1080">
+	<e:Image source="bg_jpg" right="0" left="0" top="0" bottom="0" />
+	<e:Label id="userLab" text="Label" right="20" size="40"  bottom="20"/>
+	<e:Label id="versionLab" text="Label" size="40" left="20"  bottom="20"/>
+	<e:Image id="logoImg" source="logo_png"  horizontalCenter="0.5" bottom="1115"/>
+	<e:Group id="startBtn" horizontalCenter="0" width="626" height="240" bottom="690">
+		<e:Button id="startImg" anchorOffsetX="313" anchorOffsetY="120" verticalCenter="0" horizontalCenter="0">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image id="icon" source="start_png" horizontalCenter="0" verticalCenter="0" />
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+	<e:Group id="dareBtn" horizontalCenter="0" width="190" height="44" bottom="588">
+		<e:Button label="Button" horizontalCenter="0" verticalCenter="0" scaleX="1" scaleY="1">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Label id="label"  text="挑战关卡>>" fontFamily="SimHei" size="50" bold="true" textColor="0xFFFFFF"
+					         horizontalCenter="0" strokeColor="0x000000" stroke="2" verticalCenter="-3" scaleX.up="1" scaleY.up="1"
+					         scaleX.down="1.1" scaleY.down="1.1" />
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+		</e:Group>
+		<e:Group id="rankBtn" x="70" scaleX="1" scaleY="1" bottom="232" height="256">
+			<e:Group width="200" height="200" x="54" y="88">
+				<e:Button anchorOffsetX="100" anchorOffsetY="100" horizontalCenter="0" verticalCenter="0" x="-1" y="206" scaleX="1"
+				          scaleY="1">
+					<e:skinName>
+						<e:Skin states="up,down,disabled">
+							<e:Image width="100%" height="100%" source="rank_png" scaleX.up="1" scaleY.up="1" scaleX.down="1.1"
+							         scaleY.down="1.1" />
+						</e:Skin>
+					</e:skinName>
+				</e:Button>
+			</e:Group>
+			<e:Label text="好友排行" x="5" y="126" size="40" width="100%" height="50" textAlign="center" />
+			<e:layout>
+				<e:VerticalLayout horizontalAlign="center" verticalAlign="middle" />
+			</e:layout>
+		</e:Group>
+		<e:Group id="groupRankBtn" x="320" scaleX="1" scaleY="1" bottom="232">
+			<e:Group width="200" height="200" x="54" y="88">
+				<e:Button anchorOffsetX="101" anchorOffsetY="100" horizontalCenter="0" verticalCenter="0" x="-1" y="-206" scaleX="1"
+				          scaleY="1">
+					<e:skinName>
+						<e:Skin states="up,down,disabled">
+							<e:Image width="100%" height="100%" source="rankGroup_png" scaleX.up="1" scaleY.up="1" scaleX.down="1.1"
+							         scaleY.down="1.1" />
+						</e:Skin>
+					</e:skinName>
+				</e:Button>
+			</e:Group>
+			<e:Label text="群排行" x="5" y="126" size="40" width="100%" height="50" textAlign="center" />
+			<e:layout>
+				<e:VerticalLayout horizontalAlign="center" verticalAlign="middle" />
+			</e:layout>
+		</e:Group>
+		<e:Group id="worldRankBtn" x="570" scaleX="1" scaleY="1" bottom="232">
+			<e:Group width="200" height="200" x="54" y="88">
+				<e:Button anchorOffsetX="101" anchorOffsetY="100" horizontalCenter="0" verticalCenter="0" x="0" y="-206" scaleX="1"
+				          scaleY="1">
+					<e:skinName>
+						<e:Skin states="up,down,disabled">
+							<e:Image width="100%" height="100%" source="rankWorld_png" scaleX.up="1" scaleY.up="1" scaleX.down="1.1"
+							         scaleY.down="1.1" />
+						</e:Skin>
+					</e:skinName>
+				</e:Button>
+			</e:Group>
+			<e:Label text="世界排行" x="5" y="126" size="40" width="100%" height="50" textAlign="center" />
+			<e:layout>
+				<e:VerticalLayout/>
+			</e:layout>
+		</e:Group>
+		<e:Group id="skinBtn" x="820" scaleX="1" scaleY="1" bottom="232">
+			<e:Group width="200" height="200" x="54" y="88">
+				<e:Button id="skinImg" anchorOffsetX="101" anchorOffsetY="100" horizontalCenter="0" verticalCenter="0" x="0" y="-206" scaleX="1"
+				          scaleY="1">
+					<e:skinName>
+						<e:Skin states="up,down,disabled">
+							<e:Image width="100%" height="100%" source="skin_png" scaleX.up="1" scaleY.up="1" scaleX.down="1.1"
+							         scaleY.down="1.1" />
+						</e:Skin>
+					</e:skinName>
+				</e:Button>
+			</e:Group>
+			<e:Label text="皮  肤" x="5" y="126" size="40" width="100%" height="50" textAlign="center" />
+			<e:layout>
+				<e:VerticalLayout/>
+			</e:layout>
+		</e:Group>
+		<e:Group id="moreBtn" scaleX="1" scaleY="1" right="20" bottom="1150">
+			<e:Image source="logo_x_png" x="80" y="128" />
+			<e:Label text="更多游戏" x="5" y="126" size="38" width="100%" height="50" textAlign="center" />
+			<e:layout>
+				<e:VerticalLayout/>
+			</e:layout>
+		</e:Group>
+		<e:Group id="adBtn" scaleX="1" scaleY="1" left="25" bottom="547" width="180" height="225">
+			<e:Image id="adImg" source="" width="180" height="225"  horizontalCenter="0" verticalCenter="0"/>
+		</e:Group>
+	<e:Group id="focusBtn" scaleX="1" scaleY="1" bottom="547" right="25">
+		<e:Button label="" x="77" y="112" anchorOffsetX="91" anchorOffsetY="82.5">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="btn_focus_up_png" source.down="btn_focus_down_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:layout>
+		<e:VerticalLayout/>
+		</e:layout>
+	</e:Group>
+	</e:Skin>

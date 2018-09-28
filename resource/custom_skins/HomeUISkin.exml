@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HomeUISkin" width="1080" height="1920" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="bg_jpg" left="0" right="0" top="0" bottom="0" />
+	<e:Group id="knifeNumG" bottom="100" left="50">
+		<e:layout>
+			<e:VerticalLayout/>
+		</e:layout>
+		<e:Image source="knife_blcak_png" x="6" y="-0.5" scaleX="0.8" scaleY="0.8" />
+		<e:Image source="knife_blcak_png" x="16" y="9.5" scaleX="0.8" scaleY="0.8" />
+		<e:Image source="knife_blcak_png" x="26" y="19.5" scaleX="0.8" scaleY="0.8" />
+		<e:Image source="knife_blcak_png" x="36" y="29.5" scaleX="0.8" scaleY="0.8" />
+		<e:Image source="knife_blcak_png" x="46" y="39.5" scaleX="0.8" scaleY="0.8" />
+		<e:Image source="knife_blcak_png" x="56" y="49.5" scaleX="0.8" scaleY="0.8" />
+		<e:Image source="knife_blcak_png" x="66" y="59.5" scaleX="0.8" scaleY="0.8" />
+	</e:Group>
+	<e:Group id="levelG" horizontalCenter="0" top="100">
+		<e:Rect id="levelRect1" left="0" right="0" top="0" bottom="0" fillAlpha="0.9" touchEnabled="true" width="30" height="30" ellipseWidth="35" ellipseHeight="35" fillColor="0xff8300"/>
+		<e:Rect id="levelRect2" left="0" right="0" top="0" bottom="0" fillColor="0xFFFFFF" fillAlpha="0.9" touchEnabled="true" width="30" height="30" ellipseWidth="35" ellipseHeight="35"/>
+		<e:Rect id="levelRect3" left="0" right="0" top="0" bottom="0" fillColor="0xFFFFFF" fillAlpha="0.9" touchEnabled="true" width="30" height="30" ellipseWidth="35" ellipseHeight="35"/>
+		<e:Rect id="levelRect4" left="0" right="0" top="0" bottom="0" fillColor="0xFFFFFF" fillAlpha="0.9" touchEnabled="true" width="30" height="30" ellipseWidth="35" ellipseHeight="35"/>
+		<e:Image source="icon_level_dao_png" x="130" y="12" scaleX="0.8" scaleY="0.8"/>
+		<e:BitmapLabel id="levelLab" font="white_fnt" text="第1关" x="0" scaleX="1" scaleY="1" y="0"/>
+		<e:layout>
+			<e:HorizontalLayout verticalAlign="middle" gap="25"/>
+		</e:layout>
+	</e:Group>
+	<e:BitmapLabel id="curScoreBitMapLab" text="999" horizontalCenter="0" top="140" font="num_fnt" />
+	<e:Image id="knifeIcon" anchorOffsetX="40.5" anchorOffsetY="180" source="knife0_png" x="540.5" y="1639" />
+	<e:Group id="knifeBox" width="557" height="556" horizontalCenter="0" anchorOffsetX="278.5" anchorOffsetY="278" y="700"></e:Group>
+	<e:Group id="rewordBox" width="557" height="556" horizontalCenter="0" anchorOffsetX="278.5" anchorOffsetY="278" y="700" />
+	<e:Group id="boxGroup" width="557" height="556" anchorOffsetY="278" anchorOffsetX="278.5" y="700" x="540.5">
+		<e:Image horizontalCenter="0" verticalCenter="0" source="circle0_png" />
+	</e:Group>
+	<e:Group width="557" height="556" horizontalCenter="0" anchorOffsetY="278" anchorOffsetX="278.5" y="700">
+		<e:Group id="fruitG" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0" x="249" y="509" />
+	</e:Group>
+	<e:Group id="yumiKnifeBox" width="800" height="200" anchorOffsetX="400" anchorOffsetY="100" y="700" x="540" />
+	<e:Group id="yumiGroup" width="800" height="200" anchorOffsetX="400" anchorOffsetY="100" y="700" x="540">
+		<e:Image scaleX="1" scaleY="1" verticalCenter="0" horizontalCenter="0"  source="yumi0_png"/>
+	</e:Group>
+	<e:Group width="800" height="200" anchorOffsetX="400" anchorOffsetY="100" y="700" x="540">
+		<e:Group id="yumiFruitG" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0" x="340" y="90" />
+	</e:Group>
+	<e:Group id="pauseBtn" width="100" height="100" top="30" left="30">
+		<e:Button anchorOffsetX="0.5" anchorOffsetY="0.5" label="" horizontalCenter="0" verticalCenter="0">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="pause_png" scaleX.up="0.8" scaleY.up="0.8" scaleX.down="0.9"
+					         scaleY.down="0.9" />
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+	<e:Group id="clickG" left="0" right="0" top="150" bottom="0"></e:Group>
+	<e:Group id="destroyPropBtn" right="50" bottom="300">
+		<e:Button anchorOffsetX="0.5" anchorOffsetY="0.5" label="" horizontalCenter="0" verticalCenter="0">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="btn_destroy_prop_png" />
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Label id="destroyPropNumLab" text="碎刀石x2" right="5" bottom="5" size="36" textColor="0xffffff" />
+		<e:layout>
+			<e:VerticalLayout horizontalAlign="center" verticalAlign="middle" />
+		</e:layout>
+	</e:Group>
+	<e:Group id="slowPropBtn" right="50" bottom="100">
+		<e:Button anchorOffsetX="0.5" anchorOffsetY="0.5" label="" horizontalCenter="0" verticalCenter="0">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="btn_slow_prop_png" />
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Label id="slowPropNumLab" text="减速带x2" right="5" bottom="5" size="36" textColor="0xffffff" />
+		<e:layout>
+			<e:VerticalLayout horizontalAlign="center" verticalAlign="middle" />
+		</e:layout>
+	</e:Group>
+	<e:Group id="rewordG" left="0" top="0" right="0" bottom="0" visible="false">
+		<e:Rect top="0" bottom="0" fillColor="0x141414" fillAlpha="1" touchEnabled="true" y="0" scaleX="1" scaleY="1" left="0"
+		        right="0" />
+		<e:Group id="infoG" horizontalCenter="0" verticalCenter="0">
+			<e:Group id="rewordInfoG" horizontalCenter="0" verticalCenter="0" x="63" y="551.0000000000001" scaleX="1" scaleY="1">
+				<e:Image horizontalCenter="0" verticalCenter="0" source="bg_reword_png" x="51" y="-391" scaleX="1" scaleY="1" />
+				<e:Group id="titleG" top="-80" horizontalCenter="0">
+					<e:Image source="bg_dare_continue_title_png" scaleX="1" scaleY="1" horizontalCenter="0" />
+					<e:BitmapLabel text="免费获得宝箱" font="white_fnt" horizontalCenter="0" top="30" scaleX="1.4" scaleY="1.4" />
+					<e:Label text="恭喜获得神秘宝箱！" scaleX="1" scaleY="1" size="44" horizontalCenter="0" top="200" x="297" y="180" />
+				</e:Group>
+				<e:Group id="iconPropG" horizontalCenter="0" verticalCenter="-100">
+					<e:Image id="iconRewordImg" horizontalCenter="0" verticalCenter="0" x="0" y="0" source="icon_reword_png"
+					         scaleX="0.1" scaleY="0.1" />
+					<e:Label id="propLabel" text="减速带x1" scaleX="1" scaleY="1" size="40" top="250" visible="false" />
+				</e:Group>
+				<e:Group id="getRewordBtn" scaleX="1" scaleY="1" bottom="66" horizontalCenter="0" width="350" height="155" anchorOffsetX="175" anchorOffsetY="77.5" visible="false">
+					<e:Button scaleX="1"
+					          scaleY="1" anchorOffsetX="175" anchorOffsetY="77.5" horizontalCenter="0" verticalCenter="0">
+						<e:skinName>
+							<e:Skin states="up,down,disabled">
+								<e:Image width="100%" height="100%" source="btn_get_reword_png" scaleX.up="1" scaleY.up="1" scaleX.down="1.1"
+								         scaleY.down="1.1" />
+							</e:Skin>
+						</e:skinName>
+					</e:Button>
+				</e:Group>
+				<e:Group id="rewordShareBtn" scaleX="1" scaleY="1" bottom="66" horizontalCenter="0" width="426" height="155" anchorOffsetX="213" anchorOffsetY="77.5">
+					<e:Button
+					          anchorOffsetX="213" anchorOffsetY="77.5" horizontalCenter="0" verticalCenter="0">
+						<e:skinName>
+							<e:Skin states="up,down,disabled">
+								<e:Image width="100%" height="100%" source="btn_share_png" scaleX.up="1" scaleY.up="1" scaleX.down="1.1"
+								         scaleY.down="1.1" />
+							</e:Skin>
+						</e:skinName>
+					</e:Button>
+				</e:Group>
+			</e:Group>
+			<e:Group id="closeBtn" width="149" height="149" verticalCenter="580" horizontalCenter="0" x="466" y="1466" scaleX="1"
+			         scaleY="1">
+				<e:Button anchorOffsetX="0.5" anchorOffsetY="0.5" horizontalCenter="0" verticalCenter="0">
+					<e:skinName>
+						<e:Skin states="up,down,disabled">
+							<e:Image width="100%" height="100%" source="icon_close_png" />
+							<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+						</e:Skin>
+					</e:skinName>
+				</e:Button>
+			</e:Group>
+		</e:Group>
+	</e:Group>
+</e:Skin>

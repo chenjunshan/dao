@@ -1,0 +1,40 @@
+{
+	"skins": {
+		"eui.Button": "resource/eui_skins/ButtonSkin.exml",
+		"eui.CheckBox": "resource/eui_skins/CheckBoxSkin.exml",
+		"eui.HScrollBar": "resource/eui_skins/HScrollBarSkin.exml",
+		"eui.HSlider": "resource/eui_skins/HSliderSkin.exml",
+		"eui.Panel": "resource/eui_skins/PanelSkin.exml",
+		"eui.TextInput": "resource/eui_skins/TextInputSkin.exml",
+		"eui.ProgressBar": "resource/eui_skins/ProgressBarSkin.exml",
+		"eui.RadioButton": "resource/eui_skins/RadioButtonSkin.exml",
+		"eui.Scroller": "resource/eui_skins/ScrollerSkin.exml",
+		"eui.ToggleSwitch": "resource/eui_skins/ToggleSwitchSkin.exml",
+		"eui.VScrollBar": "resource/eui_skins/VScrollBarSkin.exml",
+		"eui.VSlider": "resource/eui_skins/VSliderSkin.exml",
+		"eui.ItemRenderer": "resource/eui_skins/ItemRendererSkin.exml"
+	},
+	"autoGenerateExmlsList": true,
+	"exmls": [
+		"resource/custom_skins/ContinueUISkin.exml",
+		"resource/custom_skins/DareEndUISkin.exml",
+		"resource/custom_skins/DareUISkin.exml",
+		"resource/custom_skins/EndUISkin.exml",
+		"resource/custom_skins/FocusUISkin.exml",
+		"resource/custom_skins/HomeUISkin.exml",
+		"resource/custom_skins/PauseUISkin.exml",
+		"resource/custom_skins/RankUISkin.exml",
+		"resource/custom_skins/ScrollerItemSkin.exml",
+		"resource/custom_skins/SkinProgressBarSkin.exml",
+		"resource/custom_skins/SkinUISkin.exml",
+		"resource/custom_skins/StartUISkin.exml",
+		"resource/custom_skins/ToastUISkin.exml",
+		"resource/custom_skins/WorldRankScrollerItemSkin.exml",
+		"resource/custom_skins/WorldRankUISkin.exml",
+		"resource/eui_skins/HScrollBarSkin.exml",
+		"resource/eui_skins/ProgressBarSkin.exml",
+		"resource/eui_skins/ScrollerSkin.exml",
+		"resource/eui_skins/VScrollBarSkin.exml"
+	],
+	"path": "resource/default.thm.json"
+}

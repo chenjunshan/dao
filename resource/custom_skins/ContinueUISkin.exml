@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="custom_skins.PauseUISkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+        height="1920" width="1080">
+	<e:Rect left="0" right="0" top="0" bottom="0" fillColor="0x141414" fillAlpha="0.9" touchEnabled="true" />
+	<e:Group id="nextG" left="0" top="0" right="0" bottom="0">
+	</e:Group>
+	<e:BitmapLabel horizontalCenter="0" text="当前得分" font="white_fnt" scaleX="1.6" scaleY="1.6"  verticalCenter="-750"/>
+	<e:BitmapLabel id="curScoreLab" horizontalCenter="0" text="3" scaleX="1" scaleY="1"  verticalCenter="-630" font="num_fnt"/>
+	<e:Group id="btnG" horizontalCenter="0" verticalCenter="410.5">
+		<e:Group id="adBtn" horizontalCenter="0" width="426" bottom="350" height="155" x="-13" y="219" scaleX="1" scaleY="1">
+			<e:Image horizontalCenter="0" verticalCenter="0" source="btn_orange_png"/>
+			<e:BitmapLabel font="white_fnt" text="视频复活" scaleX="1.2" scaleY="1.2" horizontalCenter="0" verticalCenter="-10"/>
+		</e:Group>
+		<e:Group id="shareBtn" horizontalCenter="0" width="426" bottom="350" height="155" x="-13" y="219" scaleX="1" scaleY="1">
+			<e:Image horizontalCenter="0" verticalCenter="0" source="btn_orange_png"/>
+			<e:BitmapLabel font="white_fnt" text="分享复活" scaleX="1.2" scaleY="1.2" horizontalCenter="0" verticalCenter="-10"/>
+		</e:Group>
+		<e:Group id="freeBtn" horizontalCenter="0" width="426" bottom="350" height="155" x="-13" y="219" scaleX="1" scaleY="1">
+			<e:Image source="btn_green_png" horizontalCenter="0" verticalCenter="0"/>
+			<e:BitmapLabel font="white_fnt" text="免费复活" scaleX="1.2" scaleY="1.2" horizontalCenter="0" verticalCenter="-10"/>
+		</e:Group>
+		<e:Group id="giveUpBtn" horizontalCenter="0" width="220" height="50" bottom="220" x="102.99999999999994" y="615" scaleX="1" scaleY="1">
+			<e:Button label="Button" horizontalCenter="0" verticalCenter="0">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Label id="label" text="点击放弃>>" fontFamily="SimHei" size="44" textColor="0xD3D1D1" horizontalCenter="0" verticalCenter="-3" scaleX.up="1" scaleY.up="1" scaleX.down="1.1" scaleY.down="1.1"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+		</e:Group>
+		<e:layout>
+			<e:VerticalLayout gap="50" horizontalAlign="center"/>
+		</e:layout>
+	</e:Group>
+</e:Skin>

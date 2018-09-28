@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="custom_skins.RankUISkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+        height="1920" width="1080">
+	<e:Group width="90%" horizontalCenter="0" height="70%" bottom="326">
+		<e:Image scaleX="1" scaleY="1" width="100%" x="0" top="0"
+		         scale9Grid="34,125,876,164"  height="100%" source="rank_dialog_bg_png"/>
+		<e:BitmapLabel text="世界排行榜" horizontalCenter="0" top="25" scaleX="1.5" scaleY="1.5" font="white_fnt"/>
+		<e:Group left="0" right="0" top="125" height="87">
+			<e:Image source="bg_world_rank_tip_png" scaleX="1" scaleY="1" left="0" right="0" x="0" top="0" bottom="0"/>
+			<e:Label text="名次" size="36" textColor="0x000000" verticalCenter="0" left="80"/>
+			<e:Label text="玩家" size="36" textColor="0x000000" verticalCenter="0" left="400"/>
+			<e:Label text="命中飞刀数" size="36" textColor="0x000000" verticalCenter="0" right="80"/>
+		</e:Group>
+		<e:Scroller id="scroller" left="0" right="0" top="212" bottom="190">
+			<e:Group id="scrollerG">
+				<e:layout>
+					<e:VerticalLayout gap="10" horizontalAlign="center"/>
+				</e:layout>
+			</e:Group>
+		</e:Scroller>
+		<e:Group height="160" left="0" right="0" bottom="30">
+			<e:Rect left="0" right="0" bottom="0" fillAlpha="0.6" touchEnabled="true" width="1080" x="0" scaleX="1" scaleY="1" top="0" fillColor="0xa3c6ae"/>
+			<e:Group width="180" left="0" top="0" bottom="0">
+				<e:Label id="myRankLab" text="10000+" size="36" textColor="0x000000" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0"/>
+			</e:Group>
+			<e:Group top="0" bottom="0" left="150" width="550">
+				<e:Image id="myAvatarImg" source="" width="120" height="120" verticalCenter="0" left="30"/>
+				<e:Label id="myNameLab" text="一二三四" verticalCenter="0" left="200" size="36" textColor="0x000000"/>
+			</e:Group>
+			<e:Label id="myScoreLab" text="99" size="36" verticalCenter="0" textColor="0xFF0000" right="150"/>
+		</e:Group>
+	</e:Group>
+	<e:Group id="closeBtn" left="100" width="149" bottom="100" height="149">
+		<e:Button anchorOffsetX="0.5" anchorOffsetY="0.5" horizontalCenter="0" verticalCenter="0">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="rank_back_png" scaleX.up="1" scaleY.up="1" scaleX.down="1.1"
+					         scaleY.down="1.1" />
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+	<e:Label text="每周更新排名" right="100" bottom="250" size="36" textColor="0xdddbdb"/>
+	<e:Group id="playBtn" width="190" height="44" right="100" bottom="160">
+		<e:Button label="Button" horizontalCenter="0" verticalCenter="0" scaleX="1" scaleY="1">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Label id="label" text="玩一局>>" fontFamily="SimHei" size="44" textColor="0xFFFFFF" horizontalCenter="0" verticalCenter="-3" scaleX.up="1" scaleY.up="1" scaleX.down="1.1" scaleY.down="1.1"/>
+			</e:Skin>
+		</e:skinName>
+		</e:Button>
+	</e:Group>
+</e:Skin>

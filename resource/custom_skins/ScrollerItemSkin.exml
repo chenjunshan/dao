@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Skin" width="900" height="230" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="200" left="30" top="0" bottom="0">
+		<e:Image id="bgIconImg" source="skin_item_icon_bg_png" horizontalCenter="0" verticalCenter="0" />
+		<e:Image id="iconImg" scaleX="0.5" scaleY="0.5" horizontalCenter="0" verticalCenter="0"  source="knife0_png" rotation="-45"/>
+	</e:Group>
+	<e:Group id="infoG" top="0" bottom="0" left="250">
+		<e:ProgressBar id="progress" width="400" height="42" x="38" y="52" maximum="100" value="30" enabled="true" minimum="0"
+		               skinName="" />
+		<e:Label id="descLab" text="初始飞刀" x="126" y="33" size="36" textColor="0x2dab62" />
+		<e:layout>
+			<e:VerticalLayout gap="20" horizontalAlign="left" verticalAlign="middle" />
+		</e:layout>
+	</e:Group>
+	<e:Group id="btnBtn" width="245" top="50" bottom="50" right="0">
+		<e:Button id="Btn" verticalCenter="0" horizontalCenter="0" scaleX="0.9" scaleY="0.9">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image id="img" width="100%" height="100%" source="btn_use_png" />
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:BitmapLabel id="btnBitMapLabel" verticalCenter="0" horizontalCenter="0" text="使用中" font="white_fnt"
+		                scaleX="0.8" scaleY="0.8"/>
+	</e:Group>
+	<e:Image source="rank_dialog_item_bg_png" horizontalCenter="0" bottom="0"/>
+</e:Skin>
