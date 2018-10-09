@@ -102,6 +102,11 @@ module game {
 				if (sys) {
 					var w = sys.screenWidth;
 					var h = sys.screenHeight;
+					if (!RES.getRes(btnObj.res)) {
+						RES.getResAsync(btnObj.res, (data) => {
+							console.log("getResAsync:" + btnObj.res + "  " + data)
+						}, this)
+					}
 					this.userInfoButton = await platform.createUserInfoButton({
 						type: 'image',
 						image: SystemUtil.getResUrl(btnObj.res),

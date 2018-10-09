@@ -1,7 +1,7 @@
 {
 	"groups": [
 		{
-			"keys": "start_png,level_json,rank_png,pause_png,rank_dialog_item_bg_png,rank_dialog_bg_png,home_png,skin_json,thumb_pb_png,track_pb_png,roundthumb_png,track_sb_png,knife0_png,circle0_png,yumi0_png,circle1_png,circle2_png,circle3_png,circle4_png,circle5_png,circle6_png,knife1_png,knife2_png,knife3_png,knife4_png,knife5_png,knife6_png,rankGroup_png,rankWorld_png,skin_png,bg_jpg,rank_back_png,skinBg_png,white_fnt,white_png,green_png,green_fnt,skin_thumb_pb_png,skin_track_pb_png,btn_use_png,btn_play_png,btn_invite_png,skin_item_track_pb_png,skin_item_thumb_pb_png,skin_item_icon_bg_png,btn_green_tab_png,btn_white_tab_png,endBg_png,btn_green_png,btn_blue_png,btn_end_dare_png,btn_continue_png,btn_continue_jiantou_png,yumi1_png,yumi2_png,yumi3_png,yumi4_png,yumi5_png,yumi6_png,btn_destroy_prop_png,btn_slow_prop_png,bg_dare_png,fruit0_png,fruit1_png,fruit2_png,fruit3_png,small_fruit0_png,small_fruit1_png,small_fruit2_png,small_fruit3_png,dare_json,bg_dare_continue_png,bg_dare_continue_title_png,bg_dare_end_png,bg_dare_end_title_png,bg_dare_end_fruit_png,bg_dare_target_title_png,bg_dare_target_png,bg_dare_target_fruit_png,logo_png,fire_png,ic_toast_bg_png,bg_world_rank_tip_png,logo_x_png,third_png,first_png,second_png,skin_item_icon_bg_black_png,knife_fly_mp3,cur_game_fail_mp3,btn_mp3,num_fnt,num_png,knife_blcak_png,knife_white_png,def_avatar_png,add_knife_success_circle_mp3,add_knife_success_box_mp3,cur_game_pass_circle_mp3,cur_game_pass_box_mp3,btn_orange_png,share_jpg,icon_reword_png,btn_get_reword_png,btn_share_png,bg_reword_png,icon_close_png,icon_level_dao_png,btn_get_png,bg_focus_png,btn_focus_down_png,btn_focus_up_png,btn_back_png,text_focus_png",
+			"keys": "level_json,rank_png,pause_png,rank_dialog_item_bg_png,rank_dialog_bg_png,home_png,skin_json,thumb_pb_png,track_pb_png,roundthumb_png,track_sb_png,knife0_png,circle0_png,yumi0_png,circle1_png,circle2_png,circle3_png,circle4_png,circle5_png,circle6_png,knife1_png,knife2_png,knife3_png,knife4_png,knife5_png,knife6_png,rankGroup_png,rankWorld_png,skin_png,bg_jpg,rank_back_png,skinBg_png,white_fnt,white_png,green_png,green_fnt,skin_thumb_pb_png,skin_track_pb_png,btn_use_png,btn_play_png,btn_invite_png,skin_item_track_pb_png,skin_item_thumb_pb_png,skin_item_icon_bg_png,btn_green_tab_png,btn_white_tab_png,endBg_png,btn_green_png,btn_blue_png,btn_end_dare_png,btn_continue_png,btn_continue_jiantou_png,yumi1_png,yumi2_png,yumi3_png,yumi4_png,yumi5_png,yumi6_png,btn_destroy_prop_png,btn_slow_prop_png,bg_dare_png,fruit0_png,fruit1_png,fruit2_png,fruit3_png,small_fruit0_png,small_fruit1_png,small_fruit2_png,small_fruit3_png,dare_json,bg_dare_continue_png,bg_dare_continue_title_png,bg_dare_end_png,bg_dare_end_title_png,bg_dare_end_fruit_png,bg_dare_target_title_png,bg_dare_target_png,bg_dare_target_fruit_png,logo_png,fire_png,ic_toast_bg_png,bg_world_rank_tip_png,logo_x_png,third_png,first_png,second_png,skin_item_icon_bg_black_png,knife_fly_mp3,cur_game_fail_mp3,btn_mp3,num_fnt,num_png,knife_blcak_png,knife_white_png,def_avatar_png,add_knife_success_circle_mp3,add_knife_success_box_mp3,cur_game_pass_circle_mp3,cur_game_pass_box_mp3,btn_orange_png,share_jpg,icon_reword_png,btn_get_reword_png,btn_share_png,bg_reword_png,icon_close_png,icon_level_dao_png,btn_get_png,bg_focus_png,btn_focus_down_png,btn_focus_up_png,btn_back_png,text_focus_png,start_png",
 			"name": "preload"
 		}
 	],
@@ -672,9 +672,9 @@
 			"name": "FocusUISkin_exml"
 		},
 		{
-			"name": "text_focus_png",
+			"url": "assets/basic/text_focus.png",
 			"type": "image",
-			"url": "assets/basic/text_focus.png"
+			"name": "text_focus_png"
 		}
 	]
 }

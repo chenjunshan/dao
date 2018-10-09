@@ -3,7 +3,7 @@ module game {
 	export var AppID = "wx784d93c1419745cd";
 
 	export var Version = {
-		name: "1.0.7",
+		name: "1.0.8",
 		code: 1,
 		add: "?v1805311400"
 	};
